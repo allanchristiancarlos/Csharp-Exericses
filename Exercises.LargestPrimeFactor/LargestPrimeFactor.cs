@@ -31,6 +31,35 @@ namespace Exercises.LargestPrimeFactor
             return true;
         }
 
+        public static long GetPrimeNumberAtPosition(long position)
+        {
+            var notYetInPosition = true;
+            var currentPosition = 1;
+            var currentNumber = 1;
+
+            while (notYetInPosition)
+            {
+                if (!IsPrimeNumber(currentNumber))
+                {
+                    currentNumber++;
+                    continue;
+                }
+
+                currentPosition++;
+
+                if (position == currentPosition)
+                {
+                    notYetInPosition = false;
+                }
+                else
+                {
+                    currentNumber++;
+                }
+            }
+
+            return currentNumber;
+        }
+
         public static List<long> GetPrimeFactors(long number)
         {
             var currentNumber = 2;

@@ -38,5 +38,11 @@ namespace Exercises.Tests
         {
             Assert.AreEqual(6857, LargestPrimeFactor.LargestPrimeFactor.GetLargestPrimeFactor(600851475143));
         }
+
+        [TestMethod]
+        public void Should_get_the_prime_number_at_10001_position()
+        {
+            Assert.AreEqual(104729, LargestPrimeFactor.LargestPrimeFactor.GetPrimeNumberAtPosition(10001));
+        }
     }
 }
