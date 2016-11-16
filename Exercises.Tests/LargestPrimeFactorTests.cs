@@ -17,8 +17,8 @@ namespace Exercises.Tests
         [TestMethod]
         public void Should_get_the_prime_factors_of_a_number()
         {
-            var expected = new List<long>() { 71, 839, 1471, 6857 };
-            List<long> actual = LargestPrimeFactor.LargestPrimeFactor.GetPrimeFactors(600851475143);
+            var expected = new List<long>() { 5,7,13,29 };
+            List<long> actual = LargestPrimeFactor.LargestPrimeFactor.GetPrimeFactors(13195);
 
             foreach (var i in actual)
             {
@@ -31,6 +31,12 @@ namespace Exercises.Tests
             var second = actual.Except(expected).ToList();
 
             Assert.IsTrue(!first.Any() && !second.Any());
+        }
+
+        [TestMethod]
+        public void Should_get_the_largest_prime_factor_of_a_number()
+        {
+            Assert.AreEqual(6857, LargestPrimeFactor.LargestPrimeFactor.GetLargestPrimeFactor(600851475143));
         }
     }
 }

@@ -62,5 +62,10 @@ namespace Exercises.LargestPrimeFactor
 
             return factors;
         }
+
+        public static long GetLargestPrimeFactor(long number)
+        {
+            return GetPrimeFactors(number).Max();
+        }
     }
 }
