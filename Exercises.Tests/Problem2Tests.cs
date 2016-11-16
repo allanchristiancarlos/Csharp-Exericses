@@ -6,12 +6,12 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace Exercises.Tests
 {
     [TestClass]
-    public class EvenFibonacciTests
+    public class Problem2Tests
     {
         [TestMethod]
         public void Should_get_the_sum_of_all_event_numbers_in_fibonacci_number_1_max_of_10_result()
         {
-            int sum = EvenFibonacci.EventFibonacci.GetSumOfEvenFibonacciNumbers(1, 10);
+            int sum = Problem2.Problem2.GetSumOfEvenFibonacciNumbers(1, 10);
 
             Assert.AreEqual(10, sum);
         }
@@ -19,7 +19,7 @@ namespace Exercises.Tests
         [TestMethod]
         public void Should_get_the_sum_of_all_event_numbers_in_fibonacci_number_1_max_of_4000000_result()
         {
-            int sum = EvenFibonacci.EventFibonacci.GetSumOfEvenFibonacciNumbers(1, 4000000);
+            int sum = Problem2.Problem2.GetSumOfEvenFibonacciNumbers(1, 4000000);
 
             Assert.AreEqual(4613732, sum);
         }
@@ -28,7 +28,7 @@ namespace Exercises.Tests
         public void Should_get_the_fibonacci_numbers_of_a_number()
         {
             var expected = new List<int>() {1,2,3,5,8};
-            var actual = EvenFibonacci.EventFibonacci.GetFibonacci(1, 10);
+            var actual = Problem2.Problem2.GetFibonacci(1, 10);
 
             var first = expected.Except(actual).ToList();
             var second = actual.Except(expected).ToList();
@@ -40,7 +40,7 @@ namespace Exercises.Tests
         public void Should_only_get_even_fibonacci_numbers()
         {
             var expected = new List<int>() { 2, 8 };
-            var actual = EvenFibonacci.EventFibonacci.GetEvenFibonacci(1, 10);
+            var actual = Problem2.Problem2.GetEvenFibonacci(1, 10);
 
             var first = expected.Except(actual).ToList();
             var second = actual.Except(expected).ToList();

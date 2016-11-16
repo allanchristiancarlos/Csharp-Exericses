@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EB90EA7E-CD04-4950-959E-A8420BF91686}</ProjectGuid>
+    <ProjectGuid>{0DBF753E-E799-4157-A05F-59AFD05E3ED5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Exercises.EvenFibonacci</RootNamespace>
-    <AssemblyName>Exercises.EvenFibonacci</AssemblyName>
+    <RootNamespace>Exercises.Problem3</RootNamespace>
+    <AssemblyName>Exercises.Problem3</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,7 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EventFibonacci.cs" />
+    <Compile Include="Problem3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Exercises.PrimeFactor
+namespace Exercises.Problem3
 {
-    public class PrimeFactor
+    public class Problem3
     {
         public static bool IsPrimeNumber(long number)
         {
@@ -22,7 +19,7 @@ namespace Exercises.PrimeFactor
 
             for (int i = 1; i < number; i++)
             {
-                if (number%i == 0 && i != 1)
+                if (number % i == 0 && i != 1)
                 {
                     return false;
                 }
@@ -76,7 +73,7 @@ namespace Exercises.PrimeFactor
                     continue;
                 }
 
-                result = result/currentNumber; 
+                result = result / currentNumber;
 
                 // Add the current number cause its a prime number
                 factors.Add(currentNumber);

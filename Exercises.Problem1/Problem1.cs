@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Exercises.MultiplesSum
+namespace Exercises.Problem1
 {
-    public class MultiplesSum
+    public class Problem1
     {
         public static int GetSumOfMultiples(List<int> ints, int below)
         {

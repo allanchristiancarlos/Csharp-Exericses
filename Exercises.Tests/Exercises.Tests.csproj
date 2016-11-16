@@ -52,23 +52,28 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="EvenFibonacciTests.cs" />
-    <Compile Include="PrimeFactorTests.cs" />
-    <Compile Include="MultiplesSumTests.cs" />
+    <Compile Include="Problem2Tests.cs" />
+    <Compile Include="Problem3Tests.cs" />
+    <Compile Include="Problem1Tests.cs" />
+    <Compile Include="Problem6Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Exercises.EvenFibonacci\Exercises.EvenFibonacci.csproj">
-      <Project>{eb90ea7e-cd04-4950-959e-a8420bf91686}</Project>
-      <Name>Exercises.EvenFibonacci</Name>
+    <ProjectReference Include="..\Exercises.Problem1\Exercises.Problem1.csproj">
+      <Project>{81E02637-A896-444F-8AFE-CEBA210DFACF}</Project>
+      <Name>Exercises.Problem1</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Exercises.LargestPrimeFactor\Exercises.PrimeFactor.csproj">
-      <Project>{CA150403-072C-4A8C-A2F9-E199151CF3E5}</Project>
-      <Name>Exercises.PrimeFactor</Name>
+    <ProjectReference Include="..\Exercises.Problem2\Exercises.Problem2.csproj">
+      <Project>{5C362FB6-F703-4E47-8BB9-DE44FC3DF91D}</Project>
+      <Name>Exercises.Problem2</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Exercises.MultiplesSum\Exercises.MultiplesSum.csproj">
-      <Project>{0414422d-969b-4733-83bc-81d40c95dc00}</Project>
-      <Name>Exercises.MultiplesSum</Name>
+    <ProjectReference Include="..\Exercises.Problem3\Exercises.Problem3.csproj">
+      <Project>{0dbf753e-e799-4157-a05f-59afd05e3ed5}</Project>
+      <Name>Exercises.Problem3</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Exercises.Problem6\Exercises.Problem6.csproj">
+      <Project>{6500AB99-1F94-4E2C-BBAF-E8C9F3D936CC}</Project>
+      <Name>Exercises.Problem6</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

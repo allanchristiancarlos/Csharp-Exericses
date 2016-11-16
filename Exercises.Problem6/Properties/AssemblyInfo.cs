@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Exercises.EvenFibonacci")]
+[assembly: AssemblyTitle("Exercises.Problem6")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyProduct("Exercises.EvenFibonacci")]
+[assembly: AssemblyProduct("Exercises.Problem6")]
 [assembly: AssemblyCopyright("Copyright © Microsoft 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("eb90ea7e-cd04-4950-959e-a8420bf91686")]
+[assembly: Guid("6500ab99-1f94-4e2c-bbaf-e8c9f3d936cc")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Exercises.EvenFibonacci
+namespace Exercises.Problem2
 {
-    public class EventFibonacci
+    public class Problem2
     {
         public static int GetSumOfEvenFibonacciNumbers(int startNumber, int max)
         {
@@ -44,7 +41,7 @@ namespace Exercises.EvenFibonacci
 
         public static List<int> GetEvenFibonacci(int startNumber, int max)
         {
-            return GetFibonacci(startNumber, max).Where(n => n%2 == 0).ToList();
+            return GetFibonacci(startNumber, max).Where(n => n % 2 == 0).ToList();
         }
     }
 }

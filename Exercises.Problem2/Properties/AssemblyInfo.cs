@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Exercises.MultiplesSum")]
+[assembly: AssemblyTitle("Exercises.Problem2")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyProduct("Exercises.MultiplesSum")]
+[assembly: AssemblyProduct("Exercises.Problem2")]
 [assembly: AssemblyCopyright("Copyright © Microsoft 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("0414422d-969b-4733-83bc-81d40c95dc00")]
+[assembly: Guid("5c362fb6-f703-4e47-8bb9-de44fc3df91d")]
 
 // Version information for an assembly consists of the following four values:
 //
