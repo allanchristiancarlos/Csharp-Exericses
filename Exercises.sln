@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercises.MultiplesSum", "E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercises.EvenFibonacci", "Exercises.EvenFibonacci\Exercises.EvenFibonacci.csproj", "{EB90EA7E-CD04-4950-959E-A8420BF91686}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercises.LargestPrimeFactor", "Exercises.LargestPrimeFactor\Exercises.LargestPrimeFactor.csproj", "{CA150403-072C-4A8C-A2F9-E199151CF3E5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercises.PrimeFactor", "Exercises.LargestPrimeFactor\Exercises.PrimeFactor.csproj", "{CA150403-072C-4A8C-A2F9-E199151CF3E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

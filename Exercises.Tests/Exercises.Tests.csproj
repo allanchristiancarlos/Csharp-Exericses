@@ -53,7 +53,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="EvenFibonacciTests.cs" />
-    <Compile Include="LargestPrimeFactorTests.cs" />
+    <Compile Include="PrimeFactorTests.cs" />
     <Compile Include="MultiplesSumTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -62,9 +62,9 @@
       <Project>{eb90ea7e-cd04-4950-959e-a8420bf91686}</Project>
       <Name>Exercises.EvenFibonacci</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Exercises.LargestPrimeFactor\Exercises.LargestPrimeFactor.csproj">
+    <ProjectReference Include="..\Exercises.LargestPrimeFactor\Exercises.PrimeFactor.csproj">
       <Project>{CA150403-072C-4A8C-A2F9-E199151CF3E5}</Project>
-      <Name>Exercises.LargestPrimeFactor</Name>
+      <Name>Exercises.PrimeFactor</Name>
     </ProjectReference>
     <ProjectReference Include="..\Exercises.MultiplesSum\Exercises.MultiplesSum.csproj">
       <Project>{0414422d-969b-4733-83bc-81d40c95dc00}</Project>

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercises.LargestPrimeFactor
+namespace Exercises.PrimeFactor
 {
-    public class LargestPrimeFactor
+    public class PrimeFactor
     {
         public static bool IsPrimeNumber(long number)
         {
